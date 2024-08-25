@@ -14,8 +14,9 @@ import java.io.IOException;
 
 public class StepDefinitions_Cart extends WebDriverManager {
 
-    CheckOutPage out = new CheckOutPage();
+
     ProductsPage productsPg = new ProductsPage();
+
     CartPage cartPage = new CartPage();
 
     @Then("user should see the added product")
