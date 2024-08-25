@@ -17,7 +17,6 @@ public class ProductsPage extends InitElements {
     @FindBy(xpath = "//select[@class='product_sort_container']")
     public WebElement filterByDropDown;
 
-    /*find elements 1 of 6 so List is used*/
     @FindBy(xpath = "//div[@class='inventory_item_price']")
     public List<WebElement> inventoryPrice;
 
