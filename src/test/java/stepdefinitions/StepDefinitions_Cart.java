@@ -5,6 +5,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 import pom.CartPage;
+import pom.CheckOutPage;
 import pom.LoginPage;
 import pom.ProductsPage;
 import webdriver.WebDriverManager;
@@ -13,7 +14,7 @@ import java.io.IOException;
 
 public class StepDefinitions_Cart extends WebDriverManager {
 
-    LoginPage loginPage = new LoginPage();
+    CheckOutPage outPage = new CheckOutPage();
     ProductsPage productsPage = new ProductsPage();
     CartPage cartPage = new CartPage();
 
